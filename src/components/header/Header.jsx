@@ -10,6 +10,7 @@ const Header = () => {
 
   const [toggle, showMenu] = useState(false);
   const [active, setActive] = useState("#home");
+
   return (
     <header className="header" id="nav-menu">
       <nav className="nav container">
@@ -87,7 +88,9 @@ const Header = () => {
               <a
                 href={resume}
                 rel="noreferrer"
+                id="resume-link-1"
                 target="_blank"
+                download={resume}
                 onClick={() => setActive("#resume")}
                 className={
                   active === "#resume"
@@ -95,7 +98,7 @@ const Header = () => {
                     : "nav__link nav-link resume"
                 }
               >
-                <i className="uil uil-file-alt nav__icon"> </i>Resume
+                <i className="uil uil-file-alt nav__icon"> </i> Resume
               </a>
             </li>
             <li className="nav__item">

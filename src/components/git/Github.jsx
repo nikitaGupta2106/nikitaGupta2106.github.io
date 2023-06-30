@@ -15,18 +15,21 @@ const GitHub = () => {
 
         <div className="github__stats">
           <div className="github__stat" id="github-streak-stats">
+            <img src="" />
             <iframe
               title="GitHub Streak"
               src="https://github-readme-streak-stats.herokuapp.com?user=nikitaGupta2106&theme=transparent"
             ></iframe>
           </div>
           <div className="github__stat" id="github-top-langs">
+            <img src="" />
             <iframe
               title="GitHub Top Languages"
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikitaGupta2106&theme=transparent"
             ></iframe>
           </div>
           <div className="github__stat" id="github-stats-card">
+            <img src="" />
             <iframe
               title="GitHub Stats"
               src="https://github-readme-stats.vercel.app/api?username=nikitaGupta2106&show_icons=true&&theme=transparent"

@@ -71,7 +71,7 @@ h1 {
   top: 1rem;
 }
 .home__img {
-  background: url(../../assets/nikita.png);
+  /* background: url(../../assets/nikita.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

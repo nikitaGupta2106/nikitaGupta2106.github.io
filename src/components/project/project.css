@@ -3,6 +3,9 @@
   column-gap: 1.8rem;
   justify-content: center;
 }
+.projects__content img {
+  width: 200px;
+}
 .projects__content {
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.1);

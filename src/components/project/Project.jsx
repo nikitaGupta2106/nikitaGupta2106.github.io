@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import skinstoreImg from "../../assets/skinstore.png";
+import faballeyImg from "../../assets/faballey.png";
+import minewineImg from "../../assets/minewine.png";
 
 import "./project.css";
 const Project = () => {
@@ -13,6 +16,7 @@ const Project = () => {
       <div className="projects__container container grid">
         <div className="projects__content project-card">
           <div>
+            <img src={minewineImg} />
             <a
               href="https://minewinebynikitagupta.netlify.app/"
               className="project-deployed-link"
@@ -64,6 +68,7 @@ const Project = () => {
         </div>
         <div className="projects__content project-card">
           <div>
+            <img src={faballeyImg} />
             <a
               href="https://faballeybynikitagupta.netlify.app/"
               className="project-deployed-link"
@@ -115,6 +120,7 @@ const Project = () => {
         </div>
         <div className="projects__content project-card">
           <div>
+            <img src={skinstoreImg} />
             <a
               href="https://skinstorebynikitagupta.netlify.app/"
               className="project-deployed-link"
