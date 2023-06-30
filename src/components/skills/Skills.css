@@ -1,4 +1,4 @@
-.skills__container {
+.container {
   column-gap: 3rem;
   justify-content: center;
 }
@@ -30,7 +30,7 @@
 .skill__subtitle {
   font-size: var(--tiny-font-size);
 }
-.skill__icon {
+.skills-card-img {
   font-size: 1.5rem;
   color: var(--title-color);
   margin-bottom: var(--mb-0-5);

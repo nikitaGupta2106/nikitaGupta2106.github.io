@@ -98,7 +98,8 @@ const Header = () => {
                     : "nav__link nav-link resume"
                 }
               >
-                <i className="uil uil-file-alt nav__icon"> </i> Resume
+                <i className="uil uil-file-alt nav__icon"> </i>{" "}
+                <button id="resume-button-1">Resume</button>
               </a>
             </li>
             <li className="nav__item">

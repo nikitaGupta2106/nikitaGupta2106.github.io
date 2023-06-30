@@ -29,7 +29,16 @@ const About = () => {
             className="button button--flex "
             id="resume-link-2"
           >
-            Resume{" "}
+            <button
+              id="resume-button-2"
+              style={{
+                background: "none",
+                color: "hsl(240, 100%, 15%)",
+                fontWeight: "500",
+              }}
+            >
+              Resume
+            </button>{" "}
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
