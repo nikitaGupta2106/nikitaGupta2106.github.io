@@ -32,35 +32,35 @@ const GitHub = () => {
         </div> */}
 
         <div className="github__stats">
-          <div className="github__stat" id="github-streak-stats">
+          <div className="github__stat">
             {/* <iframe
               title="GitHub Streak"
               src="https://github-readme-streak-stats.herokuapp.com?user=nikitaGupta2106&theme=transparent"
             ></iframe> */}
             <img
-              // id="github-streak-stats"
+              id="github-streak-stats"
               src="https://github-readme-streak-stats.herokuapp.com/?user=nikitaGupta2106"
               alt="streaks"
             />
           </div>
-          <div className="github__stat" id="github-top-langs">
+          <div className="github__stat">
             {/* <iframe
               title="GitHub Top Languages"
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikitaGupta2106&theme=transparent"
             ></iframe> */}
             <img
-              // id="github-stats-card"
+              id="github-top-langs"
               src="https://github-readme-stats.vercel.app/api?username=nikitaGupta2106&show_icons=true"
               alt="stats"
             />
           </div>
-          <div className="github__stat" id="github-stats-card">
+          <div className="github__stat">
             {/* <iframe
               title="GitHub Stats"
               src="https://github-readme-stats.vercel.app/api?username=nikitaGupta2106&show_icons=true&&theme=transparent"
             ></iframe> */}
             <img
-              // id="github-top-langs"
+              id="github-stats-card"
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikitaGupta2106&hide_progress=true"
               alt="language"
             />
