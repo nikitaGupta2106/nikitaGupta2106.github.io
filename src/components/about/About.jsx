@@ -18,13 +18,16 @@ const About = () => {
           <p className="about__description" id="user-detail-intro">
             As a highly motivated and detail-oriented full stack developer, I
             thrive on the challenge of delivering outstanding user experiences.
-            By combining my technical skills with a user-focused mindset, I aim
-            to create intuitive and visually appealing websites and applications
-            that leave a lasting impact. I look forward to the opportunity to
-            contribute my skills and expertise to your organization.
+            By combining my technical skills, including front-end development,
+            back-end development, and database management, with a user-focused
+            mindset, I aim to create intuitive and visually appealing websites
+            and applications that leave a lasting impact. I stay updated with
+            the latest web development frameworks and technologies to ensure the
+            highest quality of work. I look forward to the opportunity to
+            contribute my skills and expertise in web development to your
+            organization.
           </p>
           <a
-            target="_blank"
             download={resume}
             href={resume}
             className="button button--flex "
