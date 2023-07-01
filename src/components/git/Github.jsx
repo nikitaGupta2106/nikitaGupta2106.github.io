@@ -39,7 +39,8 @@ const GitHub = () => {
             ></iframe> */}
             <img
               id="github-streak-stats"
-              src="https://github-readme-streak-stats.herokuapp.com/?user=nikitaGupta2106"
+              // src="https://github-readme-streak-stats.herokuapp.com/?user=nikitaGupta2106"
+              src="https://github-readme-streak-stats.herokuapp.com?user=nikitaGupta2106&theme=transparent"
               alt="streaks"
             />
           </div>
@@ -50,7 +51,8 @@ const GitHub = () => {
             ></iframe> */}
             <img
               id="github-top-langs"
-              src="https://github-readme-stats.vercel.app/api?username=nikitaGupta2106&show_icons=true"
+              // src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikitaGupta2106&show_icons=true"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikitaGupta2106&theme=transparent"
               alt="stats"
             />
           </div>
@@ -61,7 +63,8 @@ const GitHub = () => {
             ></iframe> */}
             <img
               id="github-stats-card"
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=nikitaGupta2106&hide_progress=true"
+              // src="https://github-readme-stats.vercel.app/api?username=nikitaGupta2106&hide_progress=true"
+              src="https://github-readme-stats.vercel.app/api?username=nikitaGupta2106&show_icons=true&&theme=transparent"
               alt="language"
             />
           </div>
