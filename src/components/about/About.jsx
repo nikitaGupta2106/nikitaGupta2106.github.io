@@ -24,7 +24,8 @@ const About = () => {
             contribute my skills and expertise to your organization.
           </p>
           <a
-            download=""
+            target="_blank"
+            download={resume}
             href={resume}
             className="button button--flex "
             id="resume-link-2"

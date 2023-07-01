@@ -11,7 +11,7 @@ const Home = () => {
         <div className="home__content grid">
           <Social />
           <div className="home__img home-img">
-            <img src={profilePic} />
+            <img class="home-img" src={profilePic} />
           </div>
           <Data />
         </div>
